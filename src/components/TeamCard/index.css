@@ -1,0 +1,59 @@
+.team-item {
+  list-style-type: none;
+  width: 40%;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.253);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+@media all and (min-width: 768px) {
+  .team-item {
+    width: 30%;
+    margin: 15px;
+  }
+}
+.link-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-logo {
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.team-name {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 32px;
+    margin-left: 16px;
+  }
+}
